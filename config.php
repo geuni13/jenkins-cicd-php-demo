@@ -1,4 +1,4 @@
 <?php
     // ENVIRONMENT (development or production)
-    define('ENVIRONMENT', 'development');
+    define('ENVIRONMENT', 'production');
 ?>
