@@ -1,4 +1,9 @@
 <?php
+    include "config.php";
+
+    echo "<h2>". ENVIRONMENT ."</h2>";
+
+    echo "<br><br>";
     echo "사이트 도메인 : ".$_SERVER['SERVER_NAME'];
     echo "<br><br>";
     echo "클라이언트 IP : ".$_SERVER['REMOTE_ADDR'];
