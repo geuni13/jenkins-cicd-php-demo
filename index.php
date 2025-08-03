@@ -1,7 +1,7 @@
 <?php
     include "config.php";
 
-    echo "<h2>Server : ". ENVIRONMENT ."</h2>";
+    echo "<h2>Server - ". ENVIRONMENT ."</h2>";
 
     echo "<br><hr><br>";
     echo "사이트 도메인 : ".$_SERVER['SERVER_NAME'];
