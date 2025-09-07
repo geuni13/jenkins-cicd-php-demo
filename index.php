@@ -11,5 +11,6 @@
     echo "<hr>";
     echo "<br>";
     $arrayWeek = array('일','월','화','수','목','금','토');
+    echo "마지막 작업시간 : 2025-09-07 23:22";
     echo "현재시간 : ".date('Y-m-d')." (".$arrayWeek[date('w')].") ".date('H:i:s');
 ?>
